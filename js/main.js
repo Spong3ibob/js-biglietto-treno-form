@@ -1,10 +1,16 @@
-let dati = document.forms.mydata;
-dati.addEventListener("submit", function() {
-    var textNome = document.getElementById("name")
-    var textKm = document.getElementById("km")
-})
-console.log(textNome);
-console.log(textKm);
+var NameSurname = document.getElementById("name");
+var travelkm = document.getElementById("km")
+var ageselection = document.getElementById("age")
+var juniorsection = document.getElementById("junior")
+NameSurname.addEventListener("click", function(){
+    console.log("Leonardo");
+});
+travelkm.addEventListener("click", function(){
+    console.log("35")
+});
+juniorsection.addEventListener("click", function(){
+    console.log("18")
+});
 // const travel = travelKilometers * 0.25;
 // console.log( "Prezzo intero" + " " + travel + "€");
 // if(age <= 18){
