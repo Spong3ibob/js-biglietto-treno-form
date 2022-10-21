@@ -9,14 +9,17 @@
 </head>
 <body>
     <h1>Calcola il prezzo del tuo biglieto</h1>
-    <input type="text" name="nome" placeholder="Nome e Cognome">
-    <input type="number" name="km" placeholder="Km che vuoi percorrere">
-    <select name="age" id="età">
-        <option value="junior">Minore 18 anni</option>
-        <option value="standard">Tra 18 e 65 anni</option>
-        <option value="senior">Oltre 65 anni</option>
-    </select>
-    <button id="generates">Genera</button>
+    <form action="js/main.js" method="get">
+        <input type="text" name="nome" placeholder="Nome e Cognome">
+        <input type="number" name="km" placeholder="Km che vuoi percorrere">
+        <select name="age">
+            <option value="junior">Minore 18 anni</option>
+            <option value="standard">Tra 18 e 65 anni</option>
+            <option value="senior">Oltre 65 anni</option>
+        </select>
+        <button id="generates">Genera</button>
+    </form>
+   
 
     <script src="js/main.js"></script>
 </body>

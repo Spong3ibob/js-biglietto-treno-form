@@ -1,5 +1,4 @@
-let agetiket =document.getElementById("age")
-console.log(agetiket)
+
 const travel = travelKilometers * 0.25;
 console.log( "Prezzo intero" + " " + travel + "€");
 if(age <= 18){
